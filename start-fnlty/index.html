@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 2px;
+        }
+        .star{
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border: 1px solid gray;
+            border-radius: 50%;
+            padding: 5px;
+            cursor: pointer;
+        }
+        .active{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h6>STAR RATING</h6>
+    <div class="container">
+        <span data-value="1" class="star"></span>
+        <span data-value="2" class="star"></span>
+        <span data-value="3" class="star"></span>
+        <span data-value="4" class="star"></span>
+        <span data-value="5" class="star"></span>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

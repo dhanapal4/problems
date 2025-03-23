@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+
+nav>h6{
+    color:skyblue;
+    font-weight: bolder;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+.nav-link{
+    color: grey;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    min-height: calc(100vh-3rem);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    place-items: center;
+}
+
+.container>h3{
+    background: black;
+    color: white;
+}
+
+.container span{
+    color: skyblue;
+}
+
+main button{
+    background: transparent;
+    border-radius: .5rem;
+    padding: .5rem;
+    text-transform: uppercase;
+    width: 7rem;
+    cursor: pointer;
+}
+
